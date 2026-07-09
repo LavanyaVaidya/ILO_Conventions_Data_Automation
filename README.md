@@ -18,8 +18,8 @@ The scraper first checks whether any Fundamental Convention has been ratified in
 ├── config.py               # URLs and constants
 ├── requirements.txt
 ├── .gitignore
-└── output/
-    └── fundamental_conventions.csv
+└── ILO_Conventions.csv
+
 ```
 
 ---
@@ -130,7 +130,7 @@ python main.py
 If a Fundamental Convention has been ratified in the latest reporting month, the scraper generates:
 
 ```
-fundamental_conventions.csv
+ILO_Conventions.csv
 ```
 
 If no Fundamental Convention has been ratified, the script exits after displaying an informational message.
